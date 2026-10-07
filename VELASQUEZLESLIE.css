@@ -1,0 +1,51 @@
+body{
+    background: rgb(92, 74, 63);
+    text-align: center;
+    align-items: center;
+}   
+
+.biblioteca{
+    display: inline-table;
+    grid-template-columns: repeat(5, 1rf);
+}
+
+.libro{
+    background-color: rgb(226, 203, 182);
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px; 
+    gap: 30px;
+    box-shadow: 0px 15px 15px rgba(44, 42, 40, 0.5);
+}
+
+h1 {
+    color: white;
+    font-size:50px;
+    background-color: rgb(70, 43, 32);
+}
+
+h2{
+    color: rgb(87, 34, 18);
+    font-size: 30px;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.libro:hover{
+    transform: scale(1.05);
+    background-color: rgb(226, 216, 202);
+    box-shadow: 0px 15px 15px rgba(128, 122, 116, 0.5);
+}
+
+.libro .disponible{
+    color:rgb(29, 117, 29);
+}
+
+.libro .no-disponible{
+    color:rgb(155, 35, 35);
+}
